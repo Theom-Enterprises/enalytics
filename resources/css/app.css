@@ -1,3 +1,32 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+@font-face {
+    font-family: Coolvetica-rg;
+    src: url('/public/fonts/coolvetica/coolvetica rg.otf');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: Coolvetica-rg, system-ui, sans-serif;
+    }
+
+    input[type='radio']:checked {
+        background-image: none;
+    }
+
+    html {
+        box-sizing: border-box;
+    }
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+}
