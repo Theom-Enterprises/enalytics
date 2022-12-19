@@ -19,6 +19,7 @@ module.exports = {
                 secondary: '#76CCF4',
                 first_gradient_color: '#2581C4',
                 second_gradient_color: '#76CCF4',
+                error_color: '#f74343'
             },
         },
     },
